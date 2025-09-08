@@ -29,7 +29,7 @@ function Login() {
 
     return (
         <div className=" bg-gray-200 shadow-2xl rounded-2xl w-xl p-8 mt-15 mx-auto border
-         border-gray-100">
+         border-gray-100 opacity-90">
             <h2 className="text-3xl font-bold mb-9 text-center">Login</h2>
             <form className="grid gap-2" onSubmit={handleSubmit}>
                 <input ref={emailRef} placeholder="E-mail" type="email" className="w-full px-4 py-2 border rounded-xl border-gray-500 focus:outline-none" />
