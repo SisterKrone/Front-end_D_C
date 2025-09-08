@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+out/
+.next/
+.cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swm
+*.swp
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory (tests)
+coverage/
+.nyc_output/
+
+# Debug and profiling
+*.tgz
+profile*
+.prof
+
+# TypeScript
+*.tsbuildinfo
+*.tscache
+*.rts2_cache/
+*.rts2_cache_cjs/
+*.rts2_cache_es/
+*.rts2_cache_umd/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REACT_NATIVE specific
+.expo/
+.expo-shared/
+
+# Optional Next.js specific
+.next/
+out/
+
+# Optional Parcel cache
+.cache/
+.parcel-cache/
+
+# Optional Storybook build
+storybook-static/
+.out/
+
+# Optional VSCode test configs
+.history/
