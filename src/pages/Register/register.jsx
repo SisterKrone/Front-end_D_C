@@ -28,16 +28,16 @@ function Register() {
     return (
         <>
             <Header />
-            <div className=" bg-gray-200 shadow-2xl rounded-2xl w-xl p-8 mt-15 mx-auto border
+            <div className=" bg-gray-200 shadow-2xl rounded-2xl w-100 h-100 p-8 mt-15 mx-auto border
             border-gray-100 opacity-90">
                 <h2 className="text-3xl font-bold mb-9 text-center">Create user</h2>
-                <form className="grid gap-2" onSubmit={handleSubmit}>
+                <form className="grid gap-3" onSubmit={handleSubmit}>
                     <input ref={nameRef} placeholder="Name" type="text" className="w-full px-4 py-2 border rounded-xl border-gray-500 focus:outline-none" />
                     <input ref={emailRef} placeholder="E-mail" type="email" className="w-full px-4 py-2 border rounded-xl border-gray-500 focus:outline-none" />
                     <input ref={passwordRef} placeholder="Password" type="password" className="w-full px-4 py-2 border rounded-xl border-gray-500 focus:outline-none" />
-                    <button className="w-full bg-lime-300 p-2 rounded-xl font-bold hover:bg-green-300">Register.</button>
+                    <button className="mt-4 w-full bg-lime-300 p-2 rounded-xl font-bold hover:bg-green-300">Register.</button>
                 </form>
-                <Link to="/login" className="text-center block mt-2">Already have an account? <span className="font-bold hover:underline">Login.</span></Link>
+                <Link to="/login" className="text-center block mt-3">Already have an account? <span className="font-bold hover:underline">Login.</span></Link>
             </div>
         </>
     )

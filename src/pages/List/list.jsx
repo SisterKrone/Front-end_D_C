@@ -28,7 +28,7 @@ function ListUsers() {
     return (
         <>
             <Header />
-            <div className=" bg-gray-200 shadow-2xl rounded-2xl w-xl p-8 mt-12 mx-auto border
+            <div className=" bg-gray-200 shadow-2xl rounded-2xl w-100 p-8 mt-12 mx-auto border
          border-gray-100 opacity-90 mb-5">
                 <h2 className="text-3xl font-bold mb-7 text-center">Users List</h2>
                 <div className="grid gap-2 justify-items-center">
